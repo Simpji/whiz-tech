@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;0,800;1,600&family=Poppins:ital,wght@1,500&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+#login{
+   background: url(/assets/img/login-11.jpg); 
+  background-size: cover;
+  padding: 90vh;
+  align-items: center;
+  
+} */
+:root{
+  --main-color:#00ff00;
+  --secondary-color:#ef56;
+}
+
+.navbar-brand{
+  font-size: 1.7rem;
+  font-weight: 200;
+  color: whitesmoke;
+}
+.navbar-brand > img{
+  width: 50px;
+  height: 5vh;
+}
+
+.navbar .nav-link.active{
+  font-size: 1.4rem;
+  color: #00ff00;
+}
+.navbar .navbar-brand img{
+  height: 15vh;
+}
+.navbar .nav-link{
+  font-size: 1.4rem;
+  color: blue;
+}
+
+.navbar .nav-link:hover{
+  color: red;
+}
+
+/* curaousel */
+.carousel-inner img{
+  height: 90vh;
+  background-position: top 80% center;
+}
+
+/* main style */
+/* main style */
+#main .card img{
+  height: 30vh;
+}
+ #main .card {
+  height: 70vh;
+} 
+ .give{
+  position: relative;
+}
+.fame{
+  position: absolute;
+  top: 10%;
+} 
+#main .card img-fluid{
+  height: 10vh;
+}
+#good .card img{
+  height: 17vh;
+}
+.me{
+  opacity: 0;
+}
+
+ .card:hover .me{
+  opacity: 1;
+  transform: translateY(1em);
+  transition: ease 1s;
+} 
+
+
+ #login{
+   display: flex;
+   padding: 8rem 3rem;
+    align-items: center; 
+   /* background-image: url(/assets/img/login-2.webp); */
+   
+ }
+ form{
+   width: 60%;
+ }
+
+ *{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   list-style: none;
+ }
+ footer {
+   display: flex;
+   
+ }
+
+ /* overview style */
+ /* overview style */
+ #overview-banner{
+   background-image: url(/assets/img/pjp.svg);
+   height: 60vh;
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-attachment: fixed;
+   background-position: center center;
+ }
+
+ /* Swipper */
+.swiper-button-next,.swiper-button-prev{
+  color: var(--main-color);
+}
+
+.Swipper-pagination-progressbar .Swipper-pagination-progressbar-fill{
+  background-color: var(--main-color);
+}
+
+ @media(max-width:530px){
+   /* curaousel */
+   .curaousel-inner img{
+     height: 40vh;
+   }
+ }
+
+  
+
+
+
+
